@@ -51,7 +51,7 @@ $sub-nav-item-divider-margin: rem-calc(12) !default;
   $font-color:$sub-nav-font-color,
   $font-size:$sub-nav-font-size,
   $active-bg:$sub-nav-active-bg,
-  $active-bg-hover:darken($active-bg, 5%)) {
+  $active-bg-hover:$sub-nav-active-bg-hover) {
   display: block;
   width: auto;
   overflow: hidden;
@@ -80,7 +80,7 @@ $sub-nav-item-divider-margin: rem-calc(12) !default;
       text-decoration: $sub-nav-text-decoration;
       color: $sub-nav-font-color;
       &:hover {
-	      color: $active-bg-hover;
+	      color: $sub-nav-font-color-hover;
       }
     }
 
